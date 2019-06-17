@@ -106,9 +106,7 @@ class gcForest(object):
         """
         if np.shape(X)[0] != len(y):
             raise ValueError('Sizes of y and X do not match.')
-
-        # mgs_X = self.mg_scanning(X, y)
-        # _ = self.cascade_forest(mgs_X, y)
+		
 		_ = self.cascade_forest(X, y)
 
     def predict_proba(self, X):
@@ -121,7 +119,6 @@ class gcForest(object):
         :return: np.array
             1D array containing the predicted class probabilities for each input sample.
         """
-        #mgs_X = self.mg_scanning(X)
         cascade_all_pred_prob = self.cascade_forest(X)
         predict_proba = np.mean(cascade_all_pred_prob, axis=0)
 
