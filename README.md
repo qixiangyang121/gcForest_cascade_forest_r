@@ -1,6 +1,6 @@
  # gcForest  <a href="https://github.com/DataXujing/gcForest_r/"><img src="vignettes/logo.png" align="right" alt="logo" height="120" width="240" /></a>
 
-Xu Jing
+  The original R package comes from  Xu Jing，https://github.com/DataXujing/gcForest_r.git
 
 ## 1.Introduction
 
