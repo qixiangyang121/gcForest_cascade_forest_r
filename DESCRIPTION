@@ -1,4 +1,4 @@
-Package: gcForest
+Package: gcForest_cascade_forest_r
 Type: Package
 Title: Deep Forest Model
 Version: 0.2.7
@@ -11,10 +11,10 @@ License: GPL (>= 2)
 SystemRequirements: Python (>= 3.5.0)
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/DataXujing/gcForest_r
+URL: https://github.com/qixiangyang121/gcForest_cascade_forest_r.git#https://github.com/DataXujing/gcForest_r
 BugReports: https://github.com/DataXujing/gcForest_r/issues
 RoxygenNote: 6.0.1
 Depends: R (>= 3.4.0)
-Imports: reticulate,pkgdown,crayon,cli,utils
-Suggests: rmarkdown, knitr
+Imports: reticulate,pkgdown,crayon,cli,utils,rmarkdown, knitr
+Suggests: 
 VignetteBuilder: knitr
